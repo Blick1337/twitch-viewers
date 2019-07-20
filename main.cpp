@@ -247,7 +247,7 @@ int main(int argc, char* argv[])
 	threadCount = atoi(argv[2]);
 
 	{
-		std::ifstream in("../proxies.txt", std::ios::in);
+		std::ifstream in("./proxies.txt", std::ios::in);
 
 		if (in.is_open())
 		{
@@ -268,7 +268,7 @@ int main(int argc, char* argv[])
 	}
 
 	{
-		std::ifstream in("../user-agents.txt", std::ios::in);
+		std::ifstream in("./user-agents.txt", std::ios::in);
 
 		if (in.is_open())
 		{
